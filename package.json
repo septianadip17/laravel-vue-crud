@@ -1,6 +1,5 @@
 {
     "private": true,
-    "type": "module",
     "scripts": {
         "dev": "npm run development",
         "development": "mix",
@@ -9,7 +8,7 @@
         "hot": "mix watch --hot",
         "prod": "npm run production",
         "production": "mix --production"
-        },
+    },
     "devDependencies": {
         "@popperjs/core": "^2.11.6",
         "@vitejs/plugin-vue": "^4.5.0",
@@ -19,6 +18,7 @@
         "laravel-vite-plugin": "^1.0.0",
         "sass": "^1.56.1",
         "vite": "^5.0.0",
-        "vue": "^3.2.37"
+        "vue": "^3.2.37",
+        "vue-loader": "^16.2.0"
     }
 }
